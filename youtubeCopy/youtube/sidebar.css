@@ -1,0 +1,134 @@
+.sidebar{
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 75px;
+    background-color: white;
+    position: fixed;
+    z-index: 22222;
+}
+
+.home{
+    height: 25px;
+    z-index: 1000;
+}
+
+.home-p{
+    font-size: 10px;
+    font-family: Roboto, Arial;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.home-container{
+    height:74px;
+    width: 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.explore-container{
+    height: 74px;
+    width: 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore{
+    height: 25px;
+}
+
+.explore-p{
+    font-size: 10px;
+    font-family: Roboto, Arial;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.subscriptions-container{
+    height: 74px;
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.subscriptions{
+    height: 25px;
+}
+
+
+
+.subscriptions-p{
+    font-size: 10px;
+    font-family: Roboto, Arial;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.originals{
+    height: 25px;
+}
+
+.originals-p{
+    font-size: 10px;
+    font-family: Roboto, Arial;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.originals-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 74px;
+    width: 72px;
+}
+
+.youtube-music-container{
+    height: 74px;
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.youtube-music{
+    height: 25px;
+}
+
+.youtube-music-p{
+    font-size: 10px;
+    font-family: Roboto, Arial;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.library{
+    height: 25px;
+}
+
+.library-container{
+    height: 74px;
+    width: 72px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.library-p{
+    font-size: 10px;
+    font-family: Roboto, Arial;
+    margin-bottom: 0;
+    margin-top: 3px;
+}

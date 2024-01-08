@@ -1,0 +1,93 @@
+
+.videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    margin-top: 100px;
+    margin-left: 89px;
+    margin-right: 17px;
+}
+
+.channel-picture{
+    width: 100%  
+}
+
+.profile-picture{
+   width: 36px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.down-side{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.profile-picture-container{
+    width: 50px;
+    
+}
+
+.video-title{
+    font-size: 14px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 7px;
+    line-height: 20px;  
+}
+
+.video-autor{
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.video-statistics{
+    font-size: 12px;
+    color: gray;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-bottom: 0;
+}
+
+.video-time{
+    background-color: black;
+    color: white; 
+    position: absolute; 
+    bottom: 8px;
+    right: 5px;
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.channel-picture-container{
+    position: relative;
+}
+
+@media (max-width: 750px) {
+    .videos{
+            grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .videos{
+            grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .videos{
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
